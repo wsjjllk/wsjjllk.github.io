@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://wsjjllk.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Dec 2019 00:09:16 +0800</lastBuildDate>
+    
+	<atom:link href="https://wsjjllk.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用hugo搭建自己的博客</title>
+      <link>https://wsjjllk.github.io/post/blog/</link>
+      <pubDate>Wed, 04 Dec 2019 00:09:16 +0800</pubDate>
+      
+      <guid>https://wsjjllk.github.io/post/blog/</guid>
+      <description>1.安装git，hugo
+2.用hugo来生成博客：hugo new site myblog
+3.下载并设置主题：
+ https://themes.gohugo.io/  4.在本地启动个人博客：&amp;lsquo;hugo server -t 主题名 &amp;ndash;buildDrafts&amp;rsquo;
+5.世纪写一篇文章：hugo new post/blog.md
+ (可以用visual studio code打开md文件修改文章内容) hugo server -t 主题名 - -buildDrafts(保存) 注意要切换到myblog目录  6.将个人博客部署到远端服务器（github）：
+ 登录github，建一个new respository !!! repository name 必须是自己的用户名（全小写） eg：wsjjllk.github.io 部署：hugo - -theme=主题名 - -baseUrl=&amp;rdquo;&amp;hellip;&amp;hellip;&amp;rdquo; - -buildDrafts 会生成public文件夹 接着： git init git add git commit -m&amp;rdquo; 说明 &amp;quot; 然后关联github：git remote add origin https:// .git  </description>
+    </item>
+    
+  </channel>
+</rss>
